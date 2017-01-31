@@ -19,7 +19,7 @@ movem.l %d2-%d7/%a2-%a5,(%a7)
 
 /*Write your program here******************************************/
 move.l #0x23000000, %a2
-move.l #ox23100000, %a3
+move.l #0x23100000, %a3
 move.l #100, %d2
 
 loop:move.l (%a2), %d3
